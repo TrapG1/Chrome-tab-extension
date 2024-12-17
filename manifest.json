@@ -5,7 +5,11 @@
     "description": "Manage your tabs efficiently.",
     "action": {
       "default_popup": "popup.html",
-      "default_icon": "icon.png"
+      "default_icon": {
+        "16": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+    }
     },
     "permissions": ["tabs"]
 }
